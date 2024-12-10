@@ -17,6 +17,16 @@ public class Helloworld {
     System.out.println(x3);
 
     System.out.println(5.0 / 2);
-    System.out.print(3.0/2);
+
+    int bigInt = 2147483647;
+    int res = bigInt + 1;
+    System.out.println(res);
+
+    // long l2 = 2147483648;
+    // float f1 = 10.2;
+
+    double d1 = 10.2;
+    double s = d1 + 10;
+    System.out.println(s);
   }
 }
