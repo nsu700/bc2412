@@ -23,10 +23,16 @@ public class Helloworld {
     System.out.println(res);
 
     // long l2 = 2147483648;
+
     // float f1 = 10.2;
 
     double d1 = 10.2;
     double s = d1 + 10;
     System.out.println(s);
+
+    byte b1 = 60;
+    byte b2 = 70;
+    byte sum = b1 + b2;
+    
   }
 }

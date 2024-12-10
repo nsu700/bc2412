@@ -45,7 +45,7 @@ public class Exercise20241210 {
 
     byte maxByte = 120;
     byte minByte = -128;
-    byte miniByte = maxByte + 1;
+    byte miniByte = maxByte + minByte;
     // Step1: byte value + int value => int value
     // Step2: cannot assign int value to a byte variable
     System.out.println(miniByte);
