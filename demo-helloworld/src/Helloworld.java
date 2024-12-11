@@ -1,3 +1,4 @@
+
 public class Helloworld {
   public static void main(String[] args) {
     int x = 3;
@@ -30,9 +31,9 @@ public class Helloworld {
     double s = d1 + 10;
     System.out.println(s);
 
-    byte b1 = 60;
-    byte b2 = 70;
-    byte sum = b1 + b2;
+    // byte b1 = 60;
+    // byte b2 = 70;
+    // byte sum = (byte) (b1 + b2);
     
   }
 }

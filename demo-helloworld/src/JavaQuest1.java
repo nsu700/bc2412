@@ -1,3 +1,4 @@
+
 /**
  * Expected Output:
  * 
@@ -61,7 +62,7 @@ public class JavaQuest1 {
 
     // Find reminder. Declare variable a & reminder
     int a = 7;
-    int b = 3;
+    int b = 6;
     // Fix it ...
     int remainder = a - b;
     System.out.println("The variable remainder is " + remainder);
