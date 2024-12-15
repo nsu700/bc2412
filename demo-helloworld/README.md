@@ -1,18 +1,17 @@
-## Getting Started
+# Notes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Week 1
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Data Types (8 Primitives)
+  - 6 of them handles numbers
+  - char & boolean
+- Operators
+  - Division (devision by 0)
+  - x++, ++x
+  - Comparison (>, <, ==, >=, <=) # Not apply to String
+- String (stores zero or many characters)
+  - equals(), charAt(), length()
+- If, else if, else
+- for (int i = 0; i < 10; i++) {}
+- for + if
+- 
