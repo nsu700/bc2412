@@ -1,20 +1,20 @@
+/**
+ * Expected Output:
+ * 
+ * Example 1: Input a month number: 2 Input a year: 2016
+ * 
+ * February 2016 has 29 days
+ * 
+ * Example 2: Input a month number: 12 Input a year: 2014
+ * 
+ * December 2014 has 31 days
+ */
+
+// Program the number of days that the month of a year has.
+
 import java.util.Scanner;
 
 public class JavaQuest3 {
-  /**
-   * Expected Output:
-   * 
-   * Example 1: Input a month number: 2 Input a year: 2016
-   * 
-   * February 2016 has 29 days
-   * 
-   * Example 2: Input a month number: 12 Input a year: 2014
-   * 
-   * December 2014 has 31 days
-   */
-
-  // Program the number of days that the month of a year has.
-
   public static void main(String[] strings) {
 
     Scanner input = new Scanner(System.in);

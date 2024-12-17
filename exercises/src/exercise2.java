@@ -1,14 +1,14 @@
+// https://medium.com/@cortizftw/java-exercises-loops-e9a2214b6dd2
+// Write a program that will take in numbers from the user and sum them up. If the value entered by the user is 0 the program loop ends and the average of all the values entered is shown.
+// Sample Output
+// Enter an integer value, (0 to end and get average): 10
+// Add another integer value, (0 to end and get average): 20
+// Add another integer value, (0 to end and get average): 0
+// The average is: 15
+
 import java.util.Scanner;
 
 public class exercise2 {
-  // https://medium.com/@cortizftw/java-exercises-loops-e9a2214b6dd2
-  // Write a program that will take in numbers from the user and sum them up. If the value entered by the user is 0 the program loop ends and the average of all the values entered is shown.
-  // Sample Output
-  // Enter an integer value, (0 to end and get average): 10
-  // Add another integer value, (0 to end and get average): 20
-  // Add another integer value, (0 to end and get average): 0
-  // The average is: 15
-
   public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
       int c, sum = 0;

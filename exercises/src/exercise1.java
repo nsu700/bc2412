@@ -1,7 +1,8 @@
+// Write a program that will take in a start number and an end number from a user. Then, using a while loop show all the values from the start to the end number
+
 import java.util.Scanner;
 
 public class exercise1 {
-  // Write a program that will take in a start number and an end number from a user. Then, using a while loop show all the values from the start to the end number
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Please input the starting number:");
