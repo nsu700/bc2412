@@ -2,10 +2,10 @@
 
 public class testEx {
   public static void main(String[] args) {
-    String s19 = "40289";
+    String s19 = "13289";
     int minIdx = 0;
     int maxIdx = 0;
-    for (int i = 0; i < s19.length()-1; i++) {
+    for (int i = 0; i < s19.length(); i++) {
       if (s19.charAt(minIdx) > s19.charAt(i)){ 
         minIdx = i;
       } 
