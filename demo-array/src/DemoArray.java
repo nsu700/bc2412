@@ -111,5 +111,20 @@ public class DemoArray {
         System.out.println(newCh[i]);
       }
       System.out.println(newCh);
+
+
+      // bubble sorting
+      int[] arr20 = new int[] {20, -10, 90, 50, -40, -80, 30};
+      int tempi;
+      for(int i = 0; i < arr20.length-1; i++) {
+        for (int j = i; j < arr20.length-1; j++) {
+          if (arr20[i] > arr20[j]) {
+            tempi = arr20[i];
+            arr20[i] = arr20[j];
+            arr20[j] = tempi;
+          }
+        }
+      }
+      System.out.println(Arrays.toString(arr20));
   }
 }
