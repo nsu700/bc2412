@@ -1,4 +1,5 @@
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class LoopExercise {
@@ -193,8 +194,10 @@ public class LoopExercise {
 
     // 17. Add value 0.1 to each of value in array arr16
     // Print: [0.3, 0.4, 0.6]
+    BigDecimal rate = BigDecimal.valueOf(0.1);
     for(int i = 0; i < arr16.length; i++) {
-      arr16[i] = arr16[i] + 0.1f;
+      BigDecimal num16 = BigDecimal.valueOf(arr16[i]);
+      arr16[i] = num16.add(rate).floatValue();
     }
     System.out.println(Arrays.toString(arr16));
 
@@ -203,7 +206,7 @@ public class LoopExercise {
     String target = "Tommy";
     int count18 = 0;
     // Print "count name=2"
-    for (int i = 0; i < arr18.length; i++) {
+    for(int i = 0; i < arr18.length; i++) {
       if (target.equals(arr18[i])) {
         count18++;
       }
